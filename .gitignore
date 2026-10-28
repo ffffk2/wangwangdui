@@ -1,0 +1,10 @@
+# 运行时生成的数据（观看历史/进度）
+data/history.json
+
+# 日志与调试产物
+crawl_log.txt
+server_log.txt
+video_api.json
+
+# 未来可能的依赖目录（本项目目前零依赖）
+node_modules/

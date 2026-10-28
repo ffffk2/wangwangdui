@@ -1,0 +1,10 @@
+{
+  "name": "video-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "暴风资源爬取 + 本地影视播放器（零依赖 Node）",
+  "scripts": {
+    "crawl": "node crawl.js",
+    "start": "node server.js"
+  }
+}

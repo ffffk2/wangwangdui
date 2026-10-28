@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>影视工具</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" onclick="showLibrary()">🎬 影视工具</div>
+  <input id="search" placeholder="搜索片库里的影视…" oninput="onSearch(this.value)">
+  <nav class="tabs">
+    <button id="tab-library" class="tab active" onclick="showLibrary()">片库</button>
+    <button id="tab-history" class="tab" onclick="showHistory()">历史</button>
+  </nav>
+</header>
+<main id="view"></main>
+<div id="toast"></div>
+<script src="/vendor/hls.min.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
