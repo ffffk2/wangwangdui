@@ -1,0 +1,1404 @@
+{
+ "source": {
+  "name": "光速资源",
+  "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+  "keyword": "布鲁伊",
+  "crawledAt": "2026/10/28 09:43:55",
+  "count": 6,
+  "totalEpisodes": 312
+ },
+ "videos": [
+  {
+   "id": "172826",
+   "name": "布鲁伊第一季",
+   "type": "欧美动漫",
+   "year": "2018",
+   "area": "澳大利亚",
+   "lang": "英语",
+   "actor": "大卫·麦科马克 David McCormack,梅拉妮·萨内蒂 Melanie Zanetti",
+   "director": "Joe Brumm",
+   "score": "9.7",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/ea98cb4ef75b56acda616e5166438fb6.jpg",
+   "content": "这部以趣味真挚的方式描绘现代家庭生活的动画片，赞扬了富有想象力的游戏是如何帮助孩子健康成长的。6岁的蓝色澳大利亚牧牛犬布鲁伊有着无穷无尽的想象力，热衷于将日常生活转变为调皮冒险。她和妹妹宾果致力于探索自己的世界，用游戏来克服她们的恐惧，并且尝试扮演成年人的角色。她们喜欢把父母（尤其是爸爸）拉进她们的游戏中。妈妈奇莉回归工作了，而爸爸班底特一边照顾孩子一边在家工作。虽然他可能以为自己能做主，但是女儿们绝对掌控了游戏时间——以及几乎所有其他的事情！",
+   "updated": "2025-10-26 19:37:35",
+   "apiUpdated": "2025-10-26 19:37:35",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/DbDpEEqb/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/meprVBpb/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/pennJXRe/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/1aMOBB5d/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/DdwMgR8a/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/9aAjOA3b/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/9aAjOXPb/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/nelj6DMb/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/meprVn2b/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/5eVgZ0Xa/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/pennJN7e/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/PdyQk7Ed/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/lej7J5Pa/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/1aKKEmMa/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/rb2zJ1zb/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/QeZqXvwd/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/BeXmVp5a/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/YaOV96Ye/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/Yery7Xpd/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/Rb4EK21d/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/yb8PYO3b/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/PdyQkz7d/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/9b6LVxle/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/RdGyKzLa/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/Xe0v3XLb/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/nelj6Dgb/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/meprVoNb/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/Xe0v3Dyb/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/Xe0v3Mvb/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/lej7JBRa/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/QeZqXGRd/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/pennJ6Ee/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/YaOV9Gpe/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/DdwMg7Ma/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/nelj66rb/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/RdGyKA7a/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/DdwMg71a/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/pennJ6We/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/Yery77Kd/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/5eVgZZWa/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/Rb4EKGVd/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/yb8PYYLb/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/Yery7X4d/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/9b6LVGVe/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://v.gsuus.com/play/BeXmVPWa/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://v.gsuus.com/play/1aMOB5Gd/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://v.gsuus.com/play/qaQZLj0b/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://v.gsuus.com/play/DbDpEJKb/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://v.gsuus.com/play/qaQZLKLb/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://v.gsuus.com/play/lej7Jgla/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://v.gsuus.com/play/1aKKE7Ya/index.m3u8"
+      },
+      {
+       "name": "第52集完结",
+       "url": "https://v.gsuus.com/play/rb2zJJNb/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  },
+  {
+   "id": "172867",
+   "name": "布鲁伊第一季（普通话版）",
+   "type": "欧美动漫",
+   "year": "2018",
+   "area": "澳大利亚",
+   "lang": "普通话",
+   "actor": "大卫·麦科马克 David McCormack,梅拉妮·萨内蒂 Melanie Zanetti",
+   "director": "Joe Brumm",
+   "score": "9.7",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/c27ed0b97c529cb908d4dc939d08ea54.jpg",
+   "content": "这部以趣味真挚的方式描绘现代家庭生活的动画片，赞扬了富有想象力的游戏是如何帮助孩子健康成长的。6岁的蓝色澳大利亚牧牛犬布鲁伊有着无穷无尽的想象力，热衷于将日常生活转变为调皮冒险。她和妹妹宾果致力于探索自己的世界，用游戏来克服她们的恐惧，并且尝试扮演成年人的角色。她们喜欢把父母（尤其是爸爸）拉进她们的游戏中。妈妈奇莉回归工作了，而爸爸班底特一边照顾孩子一边在家工作。虽然他可能以为自己能做主，但是女儿们绝对掌控了游戏时间——以及几乎所有其他的事情！",
+   "updated": "2025-10-26 19:34:01",
+   "apiUpdated": "2025-10-26 19:34:01",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/YaOV9yQe/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/qaQZL65b/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/meprV9Qb/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/DdwMgrXa/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/1aMOBwRd/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/nelj6RVb/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/yb8PY9jb/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/rb2zJ8Wb/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/meprV9Vb/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/BeXmVLoa/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/5eVgZvOa/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/9b6LVBNe/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/Yery72Wd/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/meprVkyb/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/Rb4EKQkd/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/9aAjO6jb/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/RdGyK85a/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/nelj6R1b/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/QeZqXzgd/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/PdyQkpnd/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/Xe0v3Y3b/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/lej7JAva/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/1aMOB9md/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/YaOV98Ee/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/pennJz5e/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/Yery72Ld/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/YaOV9Jre/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/BeXmV5Va/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/RdGyKwJa/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/lej7Jvya/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/1aKKEYGa/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/Rb4EKLJd/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/9b6LVmOe/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/DdwMgkra/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/nelj6pjb/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/QeZqXwQd/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/DbDpE06b/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/1aKKEL8a/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/9aAjOQ9b/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/Yery7E2d/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/lej7J04a/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/Xe0v3LNb/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/yb8PY3Wb/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/PdyQk9Rd/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://v.gsuus.com/play/BeXmVYga/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://v.gsuus.com/play/pennJxPe/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://v.gsuus.com/play/DbDpE15b/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://v.gsuus.com/play/DdwMgVza/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://v.gsuus.com/play/5eVgZNza/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://v.gsuus.com/play/qaQZLNGb/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://v.gsuus.com/play/rb2zJ9Mb/index.m3u8"
+      },
+      {
+       "name": "第52集完结",
+       "url": "https://v.gsuus.com/play/pennJOpe/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  },
+  {
+   "id": "172825",
+   "name": "布鲁伊第二季",
+   "type": "欧美动漫",
+   "year": "2020",
+   "area": "澳大利亚",
+   "lang": "英语",
+   "actor": "",
+   "director": "Joe Brumm",
+   "score": "9.8",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/2af0c0dcfaa9891e9d29ea3cc27b2988.jpg",
+   "content": "屡获殊荣的动画《布鲁伊》再度回归，继续以趣味真挚的方式，描绘现代家庭生活。想象力丰富的蓝色澳大利亚牧牛犬布鲁伊和她的妹妹宾果喜欢精心策划各种各样的游戏，她们尝试扮演成年人，探索周围的世界。如果这对精力充沛的姐妹能把爸爸班底特和妈妈奇莉拉进她们活力十足的游戏中，那就更棒了！第二季包含了更多关于布鲁伊和宾果的家人和朋友们的介绍，并探讨班底特和奇莉在兼顾工作和育儿的同时，如何与女儿们相处。",
+   "updated": "2025-10-26 20:01:41",
+   "apiUpdated": "2025-10-26 20:01:41",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/Xe0v3rGb/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/meprVmrb/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/nelj6Nlb/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/9aAjOgBb/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/nelj6V6b/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/Yery7NEd/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/PdyQkDWd/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/lej7JKWa/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/5eVgZrMa/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/qaQZLG7b/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/QeZqXo6d/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/yb8PY0lb/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/5eVgZK5a/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/Yery7N6d/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/QeZqXnvd/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/Xe0v3BXb/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/1aKKEkna/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/Rb4EKy0d/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/lej7Jk5a/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/DbDpEKYb/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/1aMOBnBd/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/rb2zJQJb/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/DdwMglwa/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/nelj6V5b/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/meprVq6b/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/yb8PYAmb/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/YaOV92Ne/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/pennJ9De/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/BeXmV0ma/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/BeXmV9la/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/meprVm1b/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/9aAjO7zb/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/DdwMg6ma/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/DbDpErxb/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/1aMOBgAd/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/1aKKEyra/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/lej7JKza/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/Rb4EKJ6d/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/RdGyK20a/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/Yery7nwd/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/rb2zJrKb/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/9b6LVN7e/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/DbDpEABb/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/qaQZLqYb/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://v.gsuus.com/play/1aMOBxQd/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://v.gsuus.com/play/9b6LVv9e/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://v.gsuus.com/play/pennJP4e/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://v.gsuus.com/play/pennJPle/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://v.gsuus.com/play/YaOV90Ge/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://v.gsuus.com/play/RdGyKVQa/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://v.gsuus.com/play/PdyQkvwd/index.m3u8"
+      },
+      {
+       "name": "第52集完结",
+       "url": "https://v.gsuus.com/play/DdwMglJa/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  },
+  {
+   "id": "172824",
+   "name": "布鲁伊第二季（普通话版）",
+   "type": "欧美动漫",
+   "year": "2020",
+   "area": "澳大利亚",
+   "lang": "英语",
+   "actor": "",
+   "director": "Joe Brumm",
+   "score": "9.8",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/6ad56f74dd06b329a446cd9ee8450ed9.jpg",
+   "content": "屡获殊荣的动画《布鲁伊》再度回归，继续以趣味真挚的方式，描绘现代家庭生活。想象力丰富的蓝色澳大利亚牧牛犬布鲁伊和她的妹妹宾果喜欢精心策划各种各样的游戏，她们尝试扮演成年人，探索周围的世界。如果这对精力充沛的姐妹能把爸爸班底特和妈妈奇莉拉进她们活力十足的游戏中，那就更棒了！第二季包含了更多关于布鲁伊和宾果的家人和朋友们的介绍，并探讨班底特和奇莉在兼顾工作和育儿的同时，如何与女儿们相处。",
+   "updated": "2025-10-26 20:02:56",
+   "apiUpdated": "2025-10-26 20:02:56",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/nelj6WJb/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/meprVAyb/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/BeXmVWVa/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/Xe0v3KNb/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/Yery7GBd/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/lej7JjYa/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/DbDpEL5b/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/PdyQkNRd/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/rb2zJlPb/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/lej7JrBa/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/Xe0v3kVb/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/Yery74Wd/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/5eVgZMOa/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/1aKKEola/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/qaQZLEZb/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/1aKKExJa/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/nelj6y7b/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/DdwMg1Xa/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/rb2zJBWb/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/meprVAmb/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/5eVgZEoa/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/nelj64Vb/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/9aAjOL7b/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/PdyQkBzd/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/meprVpXb/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/QeZqXK2d/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/Rb4EKjgd/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/1aMOBr1d/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/YaOV9jBe/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/RdGyK05a/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/pennJ1pe/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/qaQZLxMb/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/Rb4EKOJd/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/5eVgZz9a/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/Yery7Gkd/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/9b6LV1ze/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/1aMOBlRd/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/BeXmVv8a/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/9b6LVwLe/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/QeZqXM8d/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/yb8PYr5b/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/lej7Jr4a/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/9aAjOkpb/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/pennJqYe/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://v.gsuus.com/play/DdwMgDga/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://v.gsuus.com/play/yb8PYLWb/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://v.gsuus.com/play/RdGyKJra/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://v.gsuus.com/play/DdwMgDza/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://v.gsuus.com/play/YaOV9KEe/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://v.gsuus.com/play/rb2zJ0Ab/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://v.gsuus.com/play/DbDpEgkb/index.m3u8"
+      },
+      {
+       "name": "第52集完结",
+       "url": "https://v.gsuus.com/play/pennJqPe/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  },
+  {
+   "id": "172822",
+   "name": "布鲁伊第三季",
+   "type": "欧美动漫",
+   "year": "2021",
+   "area": "澳大利亚",
+   "lang": "英语",
+   "actor": "大卫·麦科马克,梅拉妮·萨内蒂",
+   "director": "Joe Brumm",
+   "score": "9.8",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/becc1cd41d3f7afc9ef7c18dcac454f3.jpg",
+   "content": "布鲁伊（Bluey）是一只澳洲牧牛犬，她和妹妹宾果（Bingo)、爸爸班底特（Bandit）、妈妈奇莉（Chilli）住在一起。布鲁伊有着无穷无尽的想象力，热衷于将日常生活转变为调皮冒险。第三季中加入了新角色、新场景以及丰富多彩的家庭游戏。观众将看到布鲁伊和宾果迎来了新的成长阶段，还能跟随奇莉和班底特探索他们的浪漫初遇。",
+   "updated": "2025-10-26 20:06:15",
+   "apiUpdated": "2025-10-26 20:06:15",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/nelj631b/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/lej7Jlya/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/qaQZLwGb/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/rb2zJKzb/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/QeZqXP5d/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/5eVgZ3Xa/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/pennJ2We/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/RdGyKBLa/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/DdwMgo1a/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/Rb4EKX7d/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/1aKKEnGa/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/DbDpEXyb/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/BeXmV4va/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/RdGyK4Ka/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/Yery7zpd/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/pennJw5e/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/9b6LV3Re/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/meprVMQb/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/9aAjO0lb/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/qaQZLD9b/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/DdwMgJra/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/meprVJVb/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/1aMOB3Gd/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/PdyQkY6d/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/lej7Jzva/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/rb2zJj1b/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/PdyQkVEd/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/Yery7w2d/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/YaOV94Re/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/yb8PYR3b/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/Xe0v3wyb/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/DdwMgJ8a/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/pennJw7e/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/9aAjO59b/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/nelj6qMb/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/Yery73Ld/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/meprVJpb/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/DbDpE3Kb/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/9b6LV5Oe/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/nelj63jb/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/yb8PYJrb/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/Xe0v3Q5b/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/QeZqXJQd/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/Rb4EKAVd/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://v.gsuus.com/play/YaOV9mYe/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://v.gsuus.com/play/yb8PYpgb/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://v.gsuus.com/play/lej7JzPa/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://v.gsuus.com/play/1aKKEwxa/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://v.gsuus.com/play/1aMOBkOd/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://v.gsuus.com/play/5eVgZ4va/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://v.gsuus.com/play/nelj6Jgb/index.m3u8"
+      },
+      {
+       "name": "第52集完结",
+       "url": "https://v.gsuus.com/play/BeXmVy5a/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  },
+  {
+   "id": "172823",
+   "name": "布鲁伊第三季（普通话版）",
+   "type": "欧美动漫",
+   "year": "2021",
+   "area": "澳大利亚",
+   "lang": "汉语普通话",
+   "actor": "大卫·麦科马克,梅拉妮·萨内蒂",
+   "director": "Joe Brumm",
+   "score": "9.8",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/a1f6a19291fe4bf68e64e276583789b7.jpg",
+   "content": "布鲁伊（Bluey）是一只澳洲牧牛犬，她和妹妹宾果（Bingo)、爸爸班底特（Bandit）、妈妈奇莉（Chilli）住在一起。布鲁伊有着无穷无尽的想象力，热衷于将日常生活转变为调皮冒险。第三季中加入了新角色、新场景以及丰富多彩的家庭游戏。观众将看到布鲁伊和宾果迎来了新的成长阶段，还能跟随奇莉和班底特探索他们的浪漫初遇。",
+   "updated": "2025-10-26 20:04:50",
+   "apiUpdated": "2025-10-26 20:04:50",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/Yery7P4d/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/9aAjOwPb/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/1aKKE0Ya/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/meprow6b/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/Xe0v34Kb/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/pennJDEe/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/pennm5le/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/QeZqXqJd/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/1aMOK83d/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/DdwMgYRa/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/lej7Jxla/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/rb2zqRvb/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/QeZqX3Rd/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/Rb4EKgnd/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/1aKKEKRa/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/pennJMRe/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/PdyQAlWd/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/Yery7PKd/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/DdwMgPMa/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/meprow2b/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/Yery7yEd/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/lej7gQRa/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/1aMOBYAd/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/meprVENb/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/lej7gQ5a/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/neljkO6b/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/DdwMypwa/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/BeXmV3Aa/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/5eVgZ8Ma/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/DbDpEMxb/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/Rb4Evx6d/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/nelj6j5b/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/rb2zJnKb/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/9b6LVgle/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/yb8PYwmb/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/qaQZLQLb/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/Xe0voRXb/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/9b6LVLne/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/YaOV9QLe/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/RdGyKG8a/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/nelj6Jrb/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/qaQZLZlb/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/PdyQkRPd/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/DbDpZknb/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://v.gsuus.com/play/YaOVXlNe/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://v.gsuus.com/play/neljkOlb/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://v.gsuus.com/play/BeXmXxma/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://v.gsuus.com/play/9aAjOjOb/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://v.gsuus.com/play/yb8Pzqob/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://v.gsuus.com/play/5eVg2O1a/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://v.gsuus.com/play/Yeryq06d/index.m3u8"
+      },
+      {
+       "name": "第52集完结",
+       "url": "https://v.gsuus.com/play/RdGyXn0a/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  }
+ ]
+}

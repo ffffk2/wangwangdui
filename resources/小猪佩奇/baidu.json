@@ -1,0 +1,1376 @@
+{
+ "source": {
+  "name": "百度+光速资源",
+  "api": "https://api.apibdzy.com/api.php/provide/vod/",
+  "keyword": "小猪佩奇",
+  "crawledAt": "2026/10/28 09:27:40",
+  "count": 10,
+  "totalEpisodes": 281
+ },
+ "videos": [
+  {
+   "id": "2597",
+   "name": "小猪佩奇第一季",
+   "type": "欧美动漫",
+   "year": "2004",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "莫温娜·班克斯,理查德·赖丁斯,Oliver and Alice May",
+   "director": "马克·贝克",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250521-1/c74ec486c3a3d2880219389285669a42.jpg",
+   "content": "佩奇（海莉·博德 Harley Bird 配音）是一只可爱的粉红色小猪，她有一个名叫乔治（Oliver May 配音）的弟弟，乔治不喜欢吃蔬菜，最喜欢的东西是巧克力蛋糕和恐龙。猪爸爸（理查德莱丁斯 Richard Ridings 配音）有着一个胖胖的大肚子，在一家绘图公司上班，他的上司兔先生（布耐恩·布莱塞得 Brian Blessed 饰）的女儿和佩奇同在一间幼儿园上学。\r\n　　猪妈妈（莫温娜·班克斯 Morwenna Banks 饰）喜欢做蛋糕，而它们一家人全部都喜欢的事情，就是穿上各自的靴子，在泥坑里跳来跳去！佩奇和乔治在幼儿园里有着一大群快乐的好朋友们，它们的老师是慈祥善良的羚羊夫人。在老师和朋友们的陪伴下，小猪佩奇的每一天都是如此的快乐和幸福！",
+   "updated": "2025-05-21 02:42:10",
+   "apiUpdated": "2025-05-21 02:42:10",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://vod6.bdzybf11.com/20250105/WHM4fjKT/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://vod6.bdzybf11.com/20250105/2Qdlesy2/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://vod6.bdzybf11.com/20250105/p1uIN8XF/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://vod6.bdzybf11.com/20250105/bIQQehPE/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://vod6.bdzybf11.com/20250105/0mslQJVG/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://vod6.bdzybf11.com/20250105/cj5md8y0/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://vod6.bdzybf11.com/20250105/dBclS8BJ/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://vod6.bdzybf11.com/20250105/7ZpffAt9/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://vod6.bdzybf11.com/20250105/PRwOl9Ps/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://vod6.bdzybf11.com/20250105/S44x0wHC/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://vod6.bdzybf11.com/20250105/P2HR6hDH/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://vod6.bdzybf11.com/20250105/ZX05KfGB/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://vod6.bdzybf11.com/20250105/NjfIJ0ff/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://vod6.bdzybf11.com/20250105/fdjIflwF/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://vod6.bdzybf11.com/20250105/6z1t1bQZ/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://vod6.bdzybf11.com/20250105/IYiS9eBz/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://vod6.bdzybf11.com/20250105/wa5T1ACJ/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://vod6.bdzybf11.com/20250105/nM7noZG1/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://vod6.bdzybf11.com/20250105/ZmkboFJM/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://vod6.bdzybf11.com/20250105/L691I6uc/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823094de715f7d0e4abb4b8/ffc4bc/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230955e715f7d0e4abb5ca/g8a914/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823095ae715f7d0e4abb68f/c033ff/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230955e715f7d0e4abb5bc/44b9c6/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230955e715f7d0e4abb5d1/14b1e9/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823095ae715f7d0e4abb688/653c60/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230956e715f7d0e4abb626/de2600/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230955e715f7d0e4abb5c3/841d47/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230958e715f7d0e4abb630/5e0g19/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823095ce715f7d0e4abb6ae/99d6f9/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309647409d0d0f1bb7b7f/37gcc3/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309677409d0d0f1bb7bfe/ae2989/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309627409d0d0f1bb7b71/6263d4/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309627409d0d0f1bb7b65/97a0g4/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309627409d0d0f1bb7b78/438b94/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309617409d0d0f1bb7b3f/6d8052/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309667409d0d0f1bb7bc5/54gefd/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309667409d0d0f1bb7bf0/8457bc/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309697409d0d0f1bb7c4a/f5481b/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309677409d0d0f1bb7bf7/0c7f7e/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823096ee715f7d0e4abb88a/f397e1/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823096ee715f7d0e4abb883/cbc112/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230974e715f7d0e4abb930/eb88cd/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230970e715f7d0e4abb8a6/9bb640/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230971e715f7d0e4abb8ad/5833fc/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230971e715f7d0e4abb8d5/0198g0/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230976e715f7d0e4abb937/76a326/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230978e715f7d0e4abb993/e4d924/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309877409d0d0f1bb7f91/8c990d/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230977e715f7d0e4abb974/f1515c/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823097ae715f7d0e4abb9b5/e99a90/index.m3u8"
+      },
+      {
+       "name": "第52集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823097ce715f7d0e4abb9f2/a39bef/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 52
+  },
+  {
+   "id": "2600",
+   "name": "小猪佩奇第二季",
+   "type": "欧美动漫",
+   "year": "2006",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "",
+   "director": "",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250521-1/5eb3dac526bbbcf05aca58650a6ebfa7.jpg",
+   "content": "小猪佩奇四岁了，是一只腼腆可爱而又有些专横的小猪，与她的弟弟乔治、猪妈妈和猪爸爸生活在一起。佩奇最喜欢做的事情是玩游戏、化妆游戏、郊游，以及在小泥坑里快乐的跳上跳下！ 《小猪佩奇》每集长度为 5 分钟，故事围绕每天在家发生的趣事和积极的家庭价值观展开，很贴近生活，每一集都充满了欢乐有趣的内容，小朋友及家长都非常喜爱。",
+   "updated": "2025-05-21 03:15:41",
+   "apiUpdated": "2025-05-21 03:15:41",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ea7409d0d0f1bb6b29/43521d/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ec7409d0d0f1bb6b63/3dce92/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ef7409d0d0f1bb6baa/40037f/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ed7409d0d0f1bb6b6a/4c45c4/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ec7409d0d0f1bb6b44/4c58c6/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308f17409d0d0f1bb6bf7/e7869e/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308f67409d0d0f1bb6ca2/281bdf/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308f57409d0d0f1bb6c59/ac794g/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308f07409d0d0f1bb6bf0/5e3680/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308f37409d0d0f1bb6c3a/bdfe23/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308fc7409d0d0f1bb6d0b/dd1b2d/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309007409d0d0f1bb6d74/7f907e/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308fa7409d0d0f1bb6cf7/b10a8g/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308fb7409d0d0f1bb6d04/07d8fb/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308fc7409d0d0f1bb6d12/79409f/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309007409d0d0f1bb6d7b/110ecd/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309017409d0d0f1bb6d82/872abc/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309007409d0d0f1bb6d6d/g9b298/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309097409d0d0f1bb6e32/505661/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309067409d0d0f1bb6e10/1180f1/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823090d7409d0d0f1bb6e9d/1aa831/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823090c7409d0d0f1bb6e96/dab4a5/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823090d7409d0d0f1bb6eab/ec22g9/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823090f7409d0d0f1bb6f16/0g458g/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823090e7409d0d0f1bb6ed3/bgcc4g/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309107409d0d0f1bb6f24/3dbgfa/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823090d7409d0d0f1bb6ea4/g33226/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682309107409d0d0f1bb6f1d/0e5g61/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230916e715f7d0e4abacf4/9fbe2a/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823091ae715f7d0e4abad9d/4ge2gd/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230926e715f7d0e4abaecc/e45621/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823091ce715f7d0e4abadc4/aef70f/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823091ce715f7d0e4abadbd/dd7c04/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://vod6.bdzybf11.com/20250105/bA0ZgAjZ/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://vod6.bdzybf11.com/20250105/DrFLgEcr/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://vod6.bdzybf11.com/20250105/UrqQHkLv/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://vod6.bdzybf11.com/20250105/f3NyOrtU/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://vod6.bdzybf11.com/20250105/8hAy0IoX/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://vod6.bdzybf11.com/20250105/sdkhgmTK/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://vod6.bdzybf11.com/20250105/0zVT2i9L/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://vod6.bdzybf11.com/20250105/cwi3ZGLN/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://vod6.bdzybf11.com/20250105/Zl2puP5d/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://vod6.bdzybf11.com/20250105/hHTbRvSq/index.m3u8"
+      },
+      {
+       "name": "第45集",
+       "url": "https://vod6.bdzybf11.com/20250105/166nJE8K/index.m3u8"
+      },
+      {
+       "name": "第46集",
+       "url": "https://vod6.bdzybf11.com/20250105/u5sIRZf1/index.m3u8"
+      },
+      {
+       "name": "第47集",
+       "url": "https://vod6.bdzybf11.com/20250105/2OK6krUn/index.m3u8"
+      },
+      {
+       "name": "第48集",
+       "url": "https://vod6.bdzybf11.com/20250105/xIyN0u4G/index.m3u8"
+      },
+      {
+       "name": "第49集",
+       "url": "https://vod6.bdzybf11.com/20250105/n0DIW50M/index.m3u8"
+      },
+      {
+       "name": "第50集",
+       "url": "https://vod6.bdzybf11.com/20250105/PN7g8wzw/index.m3u8"
+      },
+      {
+       "name": "第51集",
+       "url": "https://vod6.bdzybf11.com/20250105/QfiuC1m9/index.m3u8"
+      },
+      {
+       "name": "第52集",
+       "url": "https://vod6.bdzybf11.com/20250105/aOOA8Fmz/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 51
+  },
+  {
+   "id": "26576",
+   "name": "小猪佩奇第三季",
+   "type": "欧美动漫",
+   "year": "2009",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "莫温娜·班克斯,理查德·赖丁斯",
+   "director": "内维尔·阿斯特利,马克·贝克",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250521-1/bfa6a5c354b828d1ace72b726603309e.jpg",
+   "content": "小猪佩奇是一个可爱的但是有些小专横的小猪。她已经五岁了，与她的猪妈妈，猪爸爸，和弟弟乔治生活在一起。佩奇最喜欢做的事情是玩游戏，打扮的漂漂亮亮，渡假，以及在小泥坑里快乐的跳上跳下和与苏西羊（她最好的朋友）乔治（她的弟弟）一起玩儿，拜访她的猪爷爷，猪奶奶。",
+   "updated": "2025-05-21 03:50:16",
+   "apiUpdated": "2025-05-21 03:50:16",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308bfe715f7d0e4aba2d7/18e936/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c77409d0d0f1bb663e/g7cc42/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c3e715f7d0e4aba387/155cea/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c5e715f7d0e4aba3a0/88632e/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c3e715f7d0e4aba33b/8934a5/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c67409d0d0f1bb661f/d383dc/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c57409d0d0f1bb6618/6db438/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d07409d0d0f1bb67d4/c79f2b/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d07409d0d0f1bb67cd/51e9bb/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308cf7409d0d0f1bb6781/fa6073/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d07409d0d0f1bb67db/3f9d36/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d47409d0d0f1bb683e/1e737b/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d37409d0d0f1bb6837/2d40dc/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d67409d0d0f1bb6899/d47821/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308d27409d0d0f1bb6830/e1d328/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308dd7409d0d0f1bb6988/fe1gfc/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 16
+  },
+  {
+   "id": "26572",
+   "name": "小猪佩奇第四季",
+   "type": "欧美动漫",
+   "year": "2011",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "olive,Richard Ridings",
+   "director": "Neville Astley",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250521-1/e64abb66dc003447a13557126558f5f1.jpg",
+   "content": "小猪佩奇是一个可爱的但是有些小专横的小猪。她已经五岁了，与她的猪妈妈，猪爸爸，和弟弟乔治生活在一起。佩奇最喜欢做的事情是玩游戏，打扮的漂漂亮亮，渡假，以及在小泥坑里快乐的跳上跳下和与苏西羊（她最好的朋友）乔治（她的弟弟）一起玩儿，拜访她的猪爷爷，猪奶奶。",
+   "updated": "2025-05-21 03:49:47",
+   "apiUpdated": "2025-05-21 03:49:47",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308927409d0d0f1bb6447/a4d2ce/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308917409d0d0f1bb6440/281gaa/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308947409d0d0f1bb6455/1e09f2/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308987409d0d0f1bb6463/a6d9ef/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b6e715f7d0e4aba1c3/543dfe/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823089fe715f7d0e4aba16a/7a5d80/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823089fe715f7d0e4aba15c/293516/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823089fe715f7d0e4aba163/8ga89a/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823089de715f7d0e4aba155/747f2f/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823089f7409d0d0f1bb646a/748g44/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308a3e715f7d0e4aba17d/3gec2a/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b0e715f7d0e4aba1ae/7497c0/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308a8e715f7d0e4aba18b/f8bd11/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308a6e715f7d0e4aba184/403234/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ade715f7d0e4aba199/fe730c/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308afe715f7d0e4aba1a7/9380bg/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ade715f7d0e4aba1a0/66462d/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308ace715f7d0e4aba192/b35b5g/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b2e715f7d0e4aba1bc/453e89/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b1e715f7d0e4aba1b5/76ebg2/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b8e715f7d0e4aba1ca/d02074/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308bde715f7d0e4aba2a9/f08674/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b9e715f7d0e4aba1e4/dff1b3/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308b9e715f7d0e4aba1dd/b08ed8/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308bce715f7d0e4aba26f/18acg3/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308c77409d0d0f1bb665a/da8963/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 26
+  },
+  {
+   "id": "26571",
+   "name": "小猪佩奇第五季",
+   "type": "欧美动漫",
+   "year": "2016",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "莫温娜·班克斯,理查德·赖丁斯",
+   "director": "内维尔·阿斯特利,马克·贝克",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250626-1/da1bbb11ffe44318ea0653f960198954.jpg",
+   "content": "小猪佩奇是一个可爱的但是有些小专横的小猪。她已经五岁了，与她的猪妈妈，猪爸爸，和弟弟乔治生活在一起。故事内容多数环绕日常生活，比如小孩子们参加学前游戏小组、探访祖父母和表亲、在游乐场游玩、踏单车等等。佩奇一家人来到土豆城市游玩，而其他的小伙伴也都来到了土豆城市，大家一起在土豆城市里观察蔬菜的成长，乘坐土豆火箭和蔬菜转转椅，他们都过了开心的一天。佩奇和乔治来寻找猪爸爸，见到猪爸爸正在计划造一座新房子，在猪爸爸的带领下佩奇和乔治来到工地观看新房子的建造过程。学校里来了新老师，见到新老师的时候大家发现老师竟然是猪爸爸，在猪爸爸的教导下，他们学习了篮球知识并和前来接小孩的大人展开了比赛。乔治和佩奇收到了远方的姑姑寄来的礼物，在拼装好礼物之后，佩奇和乔治为小玩具该叫什么名字而起了争执。佩奇和乔治带上自己的零钱前往狐狸先生的商店帮助猪爷爷和猪奶奶买一份生日礼物，...",
+   "updated": "2025-06-26 05:36:53",
+   "apiUpdated": "2025-06-26 05:36:53",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230875e715f7d0e4aba0eb/c3g781/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823086fe715f7d0e4aba0cf/4028e5/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823086fe715f7d0e4aba0c8/beb9e7/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230871e715f7d0e4aba0e4/ad5192/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230877e715f7d0e4aba0f9/ca2b01/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230875e715f7d0e4aba0f2/b59fed/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230878e715f7d0e4aba107/f68421/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823087de715f7d0e4aba123/eb3b6d/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823087ae715f7d0e4aba11c/9e1bdd/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230879e715f7d0e4aba115/c59039/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230877e715f7d0e4aba100/e7df45/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230878e715f7d0e4aba10e/94ff98/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230880e715f7d0e4aba12a/c9ca1f/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230881e715f7d0e4aba131/e89f7c/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230881e715f7d0e4aba138/68e56e/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308907409d0d0f1bb6439/d2bc8c/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230882e715f7d0e4aba13f/8996c9/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://b2.bdzybf22.com/videos/202506/25/685ba8ae48ef02c07ee83f61/6d823e/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308867409d0d0f1bb6415/gfb7e8/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823088c7409d0d0f1bb6424/a1df69/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308867409d0d0f1bb641c/g27913/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308887409d0d0f1bb641d/476936/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823088d7409d0d0f1bb642b/dgd0eg/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823088f7409d0d0f1bb6432/8af026/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308957409d0d0f1bb645c/2c7e20/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/682308947409d0d0f1bb644e/ggd555/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 26
+  },
+  {
+   "id": "26583",
+   "name": "小猪佩奇第六季",
+   "type": "欧美动漫",
+   "year": "2019",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "莫温娜·班克斯,理查德·赖丁斯",
+   "director": "内维尔·阿斯特利,马克·贝克",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250521-1/f965df72f7f15d862769da623624bc20.jpg",
+   "content": "红猪小妹是一只非常可爱的小粉红猪，她与弟弟乔治、爸爸、妈妈快乐地住在一起。粉红猪小妹最喜欢做的事情是玩游戏，打扮的漂漂亮亮，渡假，以及住在小泥坑里快乐地跳上跳下。除了这些，她还喜欢到处探险，虽然有些时候会遇到一些小状况，但总可以化险为夷，而且都会带给大家意外的惊喜。",
+   "updated": "2025-05-21 04:21:45",
+   "apiUpdated": "2025-05-21 04:21:45",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230860e715f7d0e4aba089/f2f6ce/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823085de715f7d0e4aba07b/0420b1/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823085d7409d0d0f1bb63fd/e020c2/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230863e715f7d0e4aba090/caf56c/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230865e715f7d0e4aba09e/e10501/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230866e715f7d0e4aba0ac/g4a2fe/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230869e715f7d0e4aba0ba/870b50/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230865e715f7d0e4aba097/6c6ceb/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230866e715f7d0e4aba0a5/0e7712/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230869e715f7d0e4aba0b3/6ffc16/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823086fe715f7d0e4aba0c1/93d8e0/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230870e715f7d0e4aba0d6/6a269g/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230870e715f7d0e4aba0dd/9587gb/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 13
+  },
+  {
+   "id": "1321",
+   "name": "小猪佩奇第七季",
+   "type": "欧美动漫",
+   "year": "2019",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "",
+   "director": "内维尔·阿斯特利,马克·贝克",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250521-1/0e97eeab099b58bd3a5772c08bd27b58.jpg",
+   "content": "",
+   "updated": "2025-05-21 04:21:30",
+   "apiUpdated": "2025-05-21 04:21:30",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://vod6.bdzybf11.com/20250105/AqYu2NYh/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://vod6.bdzybf11.com/20250105/o3KQ7l8K/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://vod6.bdzybf11.com/20250105/VEO9YfGw/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://vod6.bdzybf11.com/20250105/5LeV0USM/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://vod6.bdzybf11.com/20250105/pS7eN7ht/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://vod6.bdzybf11.com/20250105/IAJepcrC/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://vod6.bdzybf11.com/20250105/oYp6Kbye/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://vod6.bdzybf11.com/20250105/YYreDXrE/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://vod6.bdzybf11.com/20250105/z87JQ6z4/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823082e7409d0d0f1bb63cb/9f45a6/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823083ee715f7d0e4aba020/50f90b/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230842e715f7d0e4aba027/59b0a1/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823083ce715f7d0e4aba012/e38a70/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823084b7409d0d0f1bb63ef/5g68aa/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230843e715f7d0e4aba02e/d73eg6/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823084a7409d0d0f1bb63e1/72dg3e/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230857e715f7d0e4aba04a/3de20a/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823084b7409d0d0f1bb63f6/bf9088/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230851e715f7d0e4aba035/gg0852/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230854e715f7d0e4aba03c/a2532g/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230859e715f7d0e4aba05f/degf15/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230859e715f7d0e4aba058/5897ge/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230857e715f7d0e4aba051/062661/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823085be715f7d0e4aba06d/adca83/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/6823085ce715f7d0e4aba074/1f23g9/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://b2.bdzybf22.com/videos/202505/21/68230860e715f7d0e4aba082/fgf8d1/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 26
+  },
+  {
+   "id": "175311",
+   "name": "小猪佩奇 第八季",
+   "type": "中国动漫",
+   "year": "2021",
+   "area": "中国大陆",
+   "lang": "英语",
+   "actor": "莫温娜·班克斯,理查德·赖丁斯",
+   "director": "内维尔·阿斯特利,马克·贝克",
+   "score": "9.2",
+   "remark": "",
+   "pic": "https://img.guangsuimage.com/cover/c69c0808328fdc3e3f3ee8b9b7d4a7f8.jpg",
+   "content": "小猪佩奇第八季将在中国大陆优酷视频上映。",
+   "updated": "2023-12-15 14:12:52",
+   "apiUpdated": "2023-12-15 14:12:52",
+   "groups": [
+    {
+     "from": "gsm3u8",
+     "episodes": [
+      {
+       "name": "第1集",
+       "url": "https://v.gsuus.com/play/zbqW5oDe/index.m3u8"
+      },
+      {
+       "name": "第2集",
+       "url": "https://v.gsuus.com/play/mbkWKgrb/index.m3u8"
+      },
+      {
+       "name": "第3集",
+       "url": "https://v.gsuus.com/play/PdRvnK0d/index.m3u8"
+      },
+      {
+       "name": "第4集",
+       "url": "https://v.gsuus.com/play/xe7qzyGb/index.m3u8"
+      },
+      {
+       "name": "第5集",
+       "url": "https://v.gsuus.com/play/0dNoj1Ke/index.m3u8"
+      },
+      {
+       "name": "第6集",
+       "url": "https://v.gsuus.com/play/NbWAvBXe/index.m3u8"
+      },
+      {
+       "name": "第7集",
+       "url": "https://v.gsuus.com/play/vbmW6XAe/index.m3u8"
+      },
+      {
+       "name": "第8集",
+       "url": "https://v.gsuus.com/play/Pe9vBX4a/index.m3u8"
+      },
+      {
+       "name": "第9集",
+       "url": "https://v.gsuus.com/play/zbqW5oRe/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://v.gsuus.com/play/kazg5A5b/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://v.gsuus.com/play/ZdPqlGye/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://v.gsuus.com/play/QdJkA19e/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://v.gsuus.com/play/6dBGpXne/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://v.gsuus.com/play/Qe1kqpob/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://v.gsuus.com/play/wdLmD1We/index.m3u8"
+      },
+      {
+       "name": "第16集",
+       "url": "https://v.gsuus.com/play/7axW5jne/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://v.gsuus.com/play/Le3mvJnb/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://v.gsuus.com/play/mbkWKjYb/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://v.gsuus.com/play/9av65xga/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://v.gsuus.com/play/oeELvQKd/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://v.gsuus.com/play/QdJkA2ve/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://v.gsuus.com/play/0dNojjme/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://v.gsuus.com/play/zbqW5rke/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://v.gsuus.com/play/xboWKKAb/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://v.gsuus.com/play/9av657La/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://v.gsuus.com/play/oeELvvmd/index.m3u8"
+      },
+      {
+       "name": "第27集",
+       "url": "https://v.gsuus.com/play/mbkWKlKb/index.m3u8"
+      },
+      {
+       "name": "第28集",
+       "url": "https://v.gsuus.com/play/ZdPql92e/index.m3u8"
+      },
+      {
+       "name": "第29集",
+       "url": "https://v.gsuus.com/play/PdRvn0Yd/index.m3u8"
+      },
+      {
+       "name": "第30集",
+       "url": "https://v.gsuus.com/play/vbmW6Vne/index.m3u8"
+      },
+      {
+       "name": "第31集",
+       "url": "https://v.gsuus.com/play/QbYDxRWa/index.m3u8"
+      },
+      {
+       "name": "第32集",
+       "url": "https://v.gsuus.com/play/xe7qzwOb/index.m3u8"
+      },
+      {
+       "name": "第33集",
+       "url": "https://v.gsuus.com/play/Pe9vB78a/index.m3u8"
+      },
+      {
+       "name": "第34集",
+       "url": "https://v.gsuus.com/play/6dBGp7We/index.m3u8"
+      },
+      {
+       "name": "第35集",
+       "url": "https://v.gsuus.com/play/Le3mvv4b/index.m3u8"
+      },
+      {
+       "name": "第36集",
+       "url": "https://v.gsuus.com/play/NbWAvv4e/index.m3u8"
+      },
+      {
+       "name": "第37集",
+       "url": "https://v.gsuus.com/play/7e5oxMqb/index.m3u8"
+      },
+      {
+       "name": "第38集",
+       "url": "https://v.gsuus.com/play/wdLmDlje/index.m3u8"
+      },
+      {
+       "name": "第39集",
+       "url": "https://v.gsuus.com/play/QbYDxZOa/index.m3u8"
+      },
+      {
+       "name": "第40集",
+       "url": "https://v.gsuus.com/play/7axW55ze/index.m3u8"
+      },
+      {
+       "name": "第41集",
+       "url": "https://v.gsuus.com/play/vbmW6VEe/index.m3u8"
+      },
+      {
+       "name": "第42集",
+       "url": "https://v.gsuus.com/play/Qe1kqnGb/index.m3u8"
+      },
+      {
+       "name": "第43集",
+       "url": "https://v.gsuus.com/play/9av657Ma/index.m3u8"
+      },
+      {
+       "name": "第44集",
+       "url": "https://v.gsuus.com/play/kazg5EOb/index.m3u8"
+      },
+      {
+       "name": "第45集完结",
+       "url": "https://v.gsuus.com/play/negWKKZe/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 45
+  },
+  {
+   "id": "25129",
+   "name": "小猪佩奇 第十季",
+   "type": "欧美动漫",
+   "year": "2024",
+   "area": "英国",
+   "lang": "英语",
+   "actor": "约翰·斯帕克斯 John Sparkes,阿梅丽·碧·史密斯,理查德·赖丁斯,莫温娜·班克斯,Kira Monteith,Alice May",
+   "director": "",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20250518-1/36f4eabfae1a2d9a68b5ac23c941f2bc.jpg",
+   "content": "《小猪佩奇》最新季来了！这是一部针对学龄前儿童的动画片，讲述的是一只名叫佩奇的可爱小猪的故事。四岁的佩奇和她的妈妈、爸爸以及弟弟乔治生活在一起。动画中以有趣的方式展示了小朋友的各种生活初体验，都可以帮助小朋友学习并度过他们自己人生的初次体验。每集5分钟，围绕佩奇每天的趣事和积极的家庭价值观展开，非常贴近生活，让小朋友和家长感受到和家人及朋友相处的快乐时光。\r\n　　[角色配音]\r\n　　小猪佩奇：阿梅丽·碧·史密斯\r\n　　旁白：约翰·斯帕克斯\r\n　　猪爸爸：理查德·赖丁斯\r\n　　猪妈妈：莫文娜·班克斯\r\n　　小猪乔治 ：基拉·蒙蒂斯 &amp; 爱丽丝·梅",
+   "updated": "2025-05-18 12:53:34",
+   "apiUpdated": "2025-05-18 12:53:34",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "第01集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234c9be715f7d0e4aec2c1/16a9ff/index.m3u8"
+      },
+      {
+       "name": "第02集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234ca3e715f7d0e4aec2d6/8bd502/index.m3u8"
+      },
+      {
+       "name": "第03集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234ca97409d0d0f1bfac71/5f1ba0/index.m3u8"
+      },
+      {
+       "name": "第04集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234caa7409d0d0f1bfac78/328e70/index.m3u8"
+      },
+      {
+       "name": "第05集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234caa7409d0d0f1bfac7f/fc3f62/index.m3u8"
+      },
+      {
+       "name": "第06集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cad7409d0d0f1bfac86/a11eac/index.m3u8"
+      },
+      {
+       "name": "第07集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cad7409d0d0f1bfac94/e6ff18/index.m3u8"
+      },
+      {
+       "name": "第08集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cad7409d0d0f1bfac8d/7ggfgb/index.m3u8"
+      },
+      {
+       "name": "第09集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb17409d0d0f1bfacab/9e3937/index.m3u8"
+      },
+      {
+       "name": "第10集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb1e715f7d0e4aec2dd/0f06f0/index.m3u8"
+      },
+      {
+       "name": "第11集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb17409d0d0f1bfaca4/dg25ea/index.m3u8"
+      },
+      {
+       "name": "第12集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb17409d0d0f1bfacb2/a954gg/index.m3u8"
+      },
+      {
+       "name": "第13集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb5e715f7d0e4aec2e4/42e677/index.m3u8"
+      },
+      {
+       "name": "第14集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb57409d0d0f1bfacb9/2gcf4e/index.m3u8"
+      },
+      {
+       "name": "第15集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb57409d0d0f1bfacc0/b05cd4/index.m3u8"
+      },
+      {
+       "name": "第17集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb8e715f7d0e4aec300/8g4c61/index.m3u8"
+      },
+      {
+       "name": "第18集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb8e715f7d0e4aec2f9/cc0213/index.m3u8"
+      },
+      {
+       "name": "第19集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb8e715f7d0e4aec2f8/819654/index.m3u8"
+      },
+      {
+       "name": "第20集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb9e715f7d0e4aec30e/040bg8/index.m3u8"
+      },
+      {
+       "name": "第21集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cb9e715f7d0e4aec307/ebe39f/index.m3u8"
+      },
+      {
+       "name": "第22集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cbbe715f7d0e4aec323/63aag5/index.m3u8"
+      },
+      {
+       "name": "第23集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cbbe715f7d0e4aec31c/4a1gd3/index.m3u8"
+      },
+      {
+       "name": "第24集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cbae715f7d0e4aec315/46c257/index.m3u8"
+      },
+      {
+       "name": "第25集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cbbe715f7d0e4aec331/afb3g4/index.m3u8"
+      },
+      {
+       "name": "第26集",
+       "url": "https://b2.bdzybf22.com/videos/202505/18/68234cbbe715f7d0e4aec32a/6b2247/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 25
+  },
+  {
+   "id": "51750",
+   "name": "小猪佩奇·完美假期",
+   "type": "动画电影",
+   "year": "2026",
+   "area": "中国大陆,英国",
+   "lang": "英语,汉语普通话",
+   "actor": "",
+   "director": "刘源",
+   "score": "0.0",
+   "remark": "",
+   "pic": "https://img.bdzyimg1.com/upload/vod/20261013-1/8fc490a38c87b20e6218422608636648.jpg",
+   "content": "当佩奇得知今年全家不会去度假时，她感到非常失落。然而一场突如其来的暴风雨，竟将她带到了遥远的中国！佩奇一路解锁奇妙冒险，直到与家人重逢，佩奇拥有了最完美的假期。",
+   "updated": "2026-10-13 16:01:15",
+   "apiUpdated": "2026-10-13 16:01:15",
+   "groups": [
+    {
+     "from": "dbm3u8",
+     "episodes": [
+      {
+       "name": "TC",
+       "url": "https://b3.bdzybf22.com/videos/202610/13/6acdd74f9ed9215f5890ad62/7382a6/index.m3u8"
+      }
+     ]
+    }
+   ],
+   "episodeCount": 1
+  }
+ ]
+}
