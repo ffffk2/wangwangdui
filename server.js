@@ -8,6 +8,7 @@
  *   NO_OPEN=1 node server.js             # 不自动打开浏览器
  *   CACHE_DIR=D:/video-cache node server.js  # 分片磁盘缓存目录(默认 <项目>/cache, 改目录启动时自动迁移旧缓存)
  *   CACHE_MAX_MB=2048 node server.js     # 磁盘缓存上限(默认 4096MB, 0=不限)
+ *   M3U8_CACHE_HOURS=6 node server.js    # m3u8 播放列表本地缓存时长(小时, 默认 6, 0=不缓存)
  *
  * 资源结构(多目录, 递归扫描):
  *   resources/<任意子目录>/<片库>.json    # crawl.js 生成; 新增文件刷新页面即生效
@@ -46,6 +47,9 @@ const CACHE_SEG_DIR = path.join(CACHE_DIR, 'seg');
 // 落盘总量上限(字节), CACHE_MAX_MB 可改(0=不限); 超限按最久未用淘汰
 const rawMaxMb = parseFloat(process.env.CACHE_MAX_MB);
 const CACHE_MAX_BYTES = (Number.isFinite(rawMaxMb) && rawMaxMb >= 0 ? rawMaxMb : 4096) * 1024 * 1024;
+// m3u8 播放列表文本缓存 TTL: 重看时 playlist 直接本地出, 启动零回源(带 sign 的源到期自动回源刷新)
+const rawM3u8H = parseFloat(process.env.M3U8_CACHE_HOURS);
+const M3U8_TTL_MS = (Number.isFinite(rawM3u8H) && rawM3u8H >= 0 ? rawM3u8H : 6) * 3600 * 1000;
 
 const UA = 'okhttp/3.15';
 // keep-alive 连接池: 复用 TLS 连接, 消除每片 1.5s 的握手延迟(实测降到 0.3-0.7s)
@@ -265,6 +269,30 @@ function evictDisk() {
   }
 }
 
+/* m3u8 播放列表文本缓存: 否则每次播放都要回源取 playlist(空闲后还要重付一次 TLS 握手),
+ * 分片全在本地也快不起来。缓存原始文本, 出口仍走 rewriteM3u8, 分片顺序(segOrder)照常登记;
+ * 手动缓存任务与代理共用本函数, 任务跑完两级 playlist 都已在本地。 */
+const M3U8_CACHE_DIR = path.join(CACHE_DIR, 'm3u8');
+const m3u8CachePath = url => path.join(M3U8_CACHE_DIR, crypto.createHash('sha1').update(url).digest('hex') + '.m3u8');
+
+async function getM3u8Text(url) {
+  if (M3U8_TTL_MS > 0 && !diskDisabled) {
+    try {
+      const st = await fs.promises.stat(m3u8CachePath(url));
+      if (Date.now() - st.mtimeMs < M3U8_TTL_MS) {
+        return fs.promises.readFile(m3u8CachePath(url), 'utf8');
+      }
+    } catch {}
+  }
+  const text = await fetchText(url);
+  if (M3U8_TTL_MS > 0 && !diskDisabled) {
+    fs.promises.mkdir(M3U8_CACHE_DIR, { recursive: true })
+      .then(() => fs.promises.writeFile(m3u8CachePath(url), text, 'utf8'))
+      .catch(() => {});
+  }
+  return text;
+}
+
 /* 缓存目录迁移: 上次目录记录在 data/config.json, 与本次 CACHE_DIR 不同则把旧缓存 mv 过去 */
 function samePath(a, b) {
   const ra = path.resolve(a), rb = path.resolve(b);
@@ -381,7 +409,7 @@ function fetchText(url) {
 
 // 取媒体 playlist 的全部分片绝对 URL; 主 playlist(多码率)递归进第一个子 playlist
 async function fetchPlaylistSegments(url, depth = 0) {
-  const text = await fetchText(url);
+  const text = await getM3u8Text(url);
   const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
   if (lines.some(l => l.startsWith('#EXTINF'))) {
     return lines.filter(l => !l.startsWith('#')).map(l => new URL(l, url).href);
@@ -509,21 +537,21 @@ function serveStatic(res, pathname) {
 
 function handleProxy(req, res, target) {
   const isM3u8 = /\.m3u8(\?|$)/i.test(target);
+  // 分片判定: 常规扩展名 + 无扩展名 + segIndex 已登记的兜底
+  // (部分源把分片伪装成 .jpeg 等图片后缀, 只认扩展名会整体绕过缓存/预取)
   const isSeg = !req.headers.range && !/\.mp4(\?|$)/i.test(target) &&
-                (/\.(ts|m4s|aac|trp|buf)(\?|$)/i.test(target) || !/\.[a-z0-9]{2,5}(\?|$)/i.test(target));
+                (/\.(ts|m4s|aac|trp|buf)(\?|$)/i.test(target) || !/\.[a-z0-9]{2,5}(\?|$)/i.test(target) ||
+                 segIndex.has(target));
 
   if (isM3u8) {
-    upstream(target, null, up => {
-      let body = '';
-      up.on('data', c => body += c);
-      up.on('end', () => {
-        res.writeHead(200, {
-          'Content-Type': 'application/vnd.apple.mpegurl',
-          'Access-Control-Allow-Origin': '*',
-        });
-        res.end(rewriteM3u8(body, target));
+    getM3u8Text(target).then(text => {
+      if (res.writableEnded) return;
+      res.writeHead(200, {
+        'Content-Type': 'application/vnd.apple.mpegurl',
+        'Access-Control-Allow-Origin': '*',
       });
-    }).on('error', e => {
+      res.end(rewriteM3u8(text, target));
+    }).catch(e => {
       if (!res.headersSent) json(res, 502, { error: e.message });
       else res.destroy();
     });

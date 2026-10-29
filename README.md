@@ -66,6 +66,7 @@ node server.js
 | `NO_OPEN=1 node server.js` | 不自动打开浏览器 |
 | `CACHE_DIR=D:/video-cache node server.js` | 分片缓存放别处(相对路径按项目目录解析), 启动时自动把旧缓存整个 mv 到新目录 |
 | `CACHE_MAX_MB=2048 node server.js` | 磁盘缓存上限(默认 4096MB, 0=不限, 超限按最久未用淘汰) |
+| `M3U8_CACHE_HOURS=12 node server.js` | m3u8 播放列表本地缓存时长(默认 6 小时, 0=不缓存) |
 
 ## 多目录片库
 
@@ -116,6 +117,7 @@ node crawl.js --kw=新片名          # 会生成 resources/新片名/baofeng.js
 | keep-alive 连接池 | server.js `HTTPS_AGENT` | 复用 TLS 连接，消除每片握手延迟 | 单片 1.5~1.9s → 0.3~0.7s |
 | 分片预取缓存 | server.js `fetchSegment/prefetchAround` | 每请求 1 片，后台预抓后 3 片入内存 LRU（上限 60 片≈18MB），下次请求零等待 | 串行取 6 片 9.2s → 0.05s |
 | 磁盘持久缓存 | server.js `diskRead/diskWrite` | 播过的分片按 URL 落盘（默认 `cache/`，总量上限 `CACHE_MAX_MB` 默认 4GB，超限最久未用淘汰），内存/预取未命中先查磁盘 | 重看/重启后命中本地秒播，不再回源 |
+| m3u8 本地缓存 | server.js `getM3u8Text` | 播放列表文本也落盘（`cache/m3u8/`，TTL 默认 6 小时 `M3U8_CACHE_HOURS`），重看时 playlist 不回源、分片全命中磁盘 | 缓存过的集启动≈纯本地，无"现场取流"延迟 |
 | 前向缓冲 60s | public/app.js hls 配置 `maxBufferLength:60` | 加大抗抖动余量 | 播放 25s 后缓冲拉满 60s |
 
 背景知识（排查卡顿时实测得出，换源后若又卡可参照）：
@@ -152,6 +154,7 @@ node crawl.js --kw=新片名          # 会生成 resources/新片名/baofeng.js
 - 暴风源为公开采集站，播放质量/可用性以其服务为准
 - 量子/非凡等源的直链带 `sign` 参数会过期，暴风/光速/百度/360 源为静态路径较稳定
 - 磁盘缓存以分片 URL 为 key：静态直链源（暴风/光速/百度/360）重看必命中；量子/非凡等带 `sign` 的链接过期换新后 URL 变了不命中（旧分片会在容量压力下被淘汰）
+- m3u8 播放列表缓存默认 6 小时（`M3U8_CACHE_HOURS` 可调，0=关闭）；带 `sign` 的源若 sign 比 TTL 先过期，播放会先报错、到 TTL 自动恢复，可把 TTL 调小或设 0
 - 《汪汪队立大功》各季**每集约 22~23 分钟是完整一集**（含两个 11 分钟小故事）；量子/非凡源标称"52 集"实为 26 集重复两遍，全季就是 26 大集
 - 换了新采集源后如果又出现卡顿：大概率该源也是"小分片+慢冷连接"型，本代理的预取机制会自动生效，无需改动；若仍卡，按下面的方法快速定位
 
