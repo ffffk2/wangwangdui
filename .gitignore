@@ -1,5 +1,10 @@
-# 运行时生成的数据（观看历史/进度）
+# 运行时生成的数据（观看历史/进度/缓存目录记录/手动缓存任务）
 data/history.json
+data/config.json
+data/cache-tasks.json
+
+# 分片磁盘缓存（播放过的分片落盘，体积大且可再生）
+cache/
 
 # 日志与调试产物
 crawl_log.txt

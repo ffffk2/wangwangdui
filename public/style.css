@@ -44,12 +44,24 @@ main { max-width: 1280px; margin: 0 auto; padding: 24px; }
 .desc { margin: 12px 0; color: #aab1c2; font-size: 14px; line-height: 1.7; white-space: pre-wrap; }
 .ep-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; margin-top: 14px; }
 .ep-btn {
+  position: relative;
   padding: 9px 6px; border-radius: 8px; border: 1px solid #2c3346; background: #1a1f2c;
   color: #ccd3e0; cursor: pointer; font-size: 13px; text-align: center;
 }
 .ep-btn:hover { border-color: #3f7fe0; color: #fff; }
 .ep-btn.watched { color: #6f7688; }
 .ep-btn.current { background: #2f6fe4; border-color: #2f6fe4; color: #fff; }
+/* ---- 手动缓存角标 ---- */
+.ck {
+  position: absolute; right: 3px; bottom: 3px; font-size: 10px; line-height: 1;
+  padding: 2px 4px; border-radius: 4px; background: #232938; color: #9aa3b8;
+  cursor: pointer; user-select: none;
+}
+.ck:hover { background: #2f6fe4; color: #fff; }
+.ck.on { background: #2f6fe4; color: #fff; }
+.ck.ok { background: #1d4028; color: #58c98b; }
+.ck.err { background: #4a2222; color: #ff8080; }
+.cache-bar { display: flex; align-items: center; gap: 12px; margin-top: 16px; color: #7d8598; font-size: 13px; }
 .back { margin-bottom: 18px; }
 .btn {
   padding: 8px 16px; border-radius: 8px; border: 1px solid #2c3346;

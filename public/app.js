@@ -10,6 +10,7 @@ const state = {
   autoplay: true,
   hls: null, saveTimer: 0, resumeAt: 0,
   countdown: null,
+  cacheTasks: {}, cacheTimer: 0,   // 手动缓存任务(key->任务) 与轮询定时器
 };
 
 const PLACEHOLDER = 'data:image/svg+xml;utf8,' + encodeURIComponent(
@@ -92,6 +93,7 @@ function renderCurrent() {
 async function showLibrary() {
   setTab('library');
   destroyPlayer();
+  stopCachePoller();
   state.video = null; state.q = '';
   $('#search').value = '';
   view.innerHTML = '<div class="empty">加载中…</div>';
@@ -190,14 +192,19 @@ function renderDetail(opts = {}) {
         ${state.progress && !state.progress.finished
           ? `<button class="btn primary" style="margin-top:10px" onclick="openPlayer(${state.progress.episodeIndex}, true)">▶ 续播 ${esc(state.progress.episodeName)} (${fmtDur(state.progress.position)})</button>`
           : ''}
+        <div class="cache-bar">
+          <button class="btn" onclick="cacheAll()">⬇ 全部缓存</button>
+          <span>点分集右下角角标可单独缓存, 缓存过的集重看秒加载</span>
+        </div>
         <div class="ep-grid">
           ${g.episodes.map((e, i) => `
             <button class="ep-btn ${watched.has(i) ? 'watched' : ''}"
-                    onclick="openPlayer(${i})" title="${esc(e.url)}">${esc(e.name)}</button>`).join('')}
+                    onclick="openPlayer(${i})" title="${esc(e.url)}">${esc(e.name)}${cacheChipHtml(i)}</button>`).join('')}
         </div>
       </div>
     </div>`;
   window.scrollTo(0, 0);
+  startCachePoller();
   if (opts.autoPlay && state.progress) openPlayer(state.progress.episodeIndex, true);
 }
 
@@ -218,7 +225,7 @@ async function openPlayer(epIndex, resume) {
 
   const total = g.episodes.length;
   const sideEps = g.episodes.map((e, i) =>
-    `<button class="ep-btn ${i === epIndex ? 'current' : ''}" onclick="switchEp(${i})">${esc(e.name)}</button>`).join('');
+    `<button class="ep-btn ${i === epIndex ? 'current' : ''}" onclick="switchEp(${i})">${esc(e.name)}${cacheChipHtml(i)}</button>`).join('');
 
   view.innerHTML = `
     <div class="player-layout">
@@ -238,6 +245,7 @@ async function openPlayer(epIndex, resume) {
       </div>
     </div>`;
   window.scrollTo(0, 0);
+  startCachePoller();
 
   const video = $('#video');
   bindPlayer(video, ep.url);
@@ -403,6 +411,99 @@ async function clearHistory() {
     body: JSON.stringify({ action: 'clear' }),
   });
   showHistory();
+}
+
+/* ---------------- 手动缓存(整集预下载) ---------------- */
+async function refreshCacheTasks() {
+  try {
+    const d = await api('/api/cache/tasks');
+    state.cacheTasks = {};
+    for (const t of d.items) state.cacheTasks[t.key] = t;
+    updateCacheChips();
+  } catch {}
+}
+
+function cacheKeyOf(i) {
+  const v = state.video;
+  return v ? `${v.lib}::${v.id}::0::${i}` : '';
+}
+
+function cacheChipHtml(i) {
+  return `<span class="ck" data-ck="${i}" onclick="event.stopPropagation();cacheClick(${i})">⬇</span>`;
+}
+
+function updateCacheChips() {
+  document.querySelectorAll('.ck[data-ck]').forEach(el => {
+    const i = +el.dataset.ck;
+    const t = state.cacheTasks[cacheKeyOf(i)];
+    let cls = '', txt = '⬇', tip = '缓存该集(点击开始)';
+    if (t) {
+      if (t.status === 'queued') { cls = 'on'; txt = '排队'; tip = '排队等待缓存, 点击取消'; }
+      else if (t.status === 'running') { cls = 'on'; txt = `${t.done}/${t.total || '?'}`; tip = '缓存中, 点击取消'; }
+      else if (t.status === 'done') { cls = 'ok'; txt = '✓'; tip = `已缓存 ${t.sizeMB || 0}MB, 点击重新下载`; }
+      else if (t.status === 'error') { cls = 'err'; txt = '!'; tip = `缓存失败: ${t.error || ''}(点击重试)`; }
+      else if (t.status === 'canceled') { tip = '已取消, 点击重新缓存'; }
+    }
+    el.className = 'ck' + (cls ? ' ' + cls : '');
+    el.textContent = txt;
+    el.title = tip;
+  });
+}
+
+async function startCache(i) {
+  const v = state.video;
+  const ep = v.groups[0].episodes[i];
+  await api('/api/cache/task', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action: 'start', file: v.lib, videoId: v.id, groupIndex: 0, episodeIndex: i }),
+  });
+  toast(`已加入缓存队列: ${ep.name}`);
+}
+
+async function cacheClick(i) {
+  const v = state.video;
+  if (!v) return;
+  const t = state.cacheTasks[cacheKeyOf(i)];
+  try {
+    if (t && (t.status === 'queued' || t.status === 'running')) {
+      await api('/api/cache/task', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'cancel', file: v.lib, videoId: v.id, groupIndex: 0, episodeIndex: i }),
+      });
+      toast('已取消缓存');
+    } else if (t && t.status === 'done') {
+      if (!confirm('该集已缓存过, 重新下载一遍?')) return;
+      await startCache(i);
+    } else {
+      await startCache(i);
+    }
+    refreshCacheTasks();
+  } catch (e) { toast(`操作失败: ${e.message}`); }
+}
+
+async function cacheAll() {
+  const v = state.video;
+  if (!v) return;
+  const eps = v.groups[0].episodes;
+  if (!confirm(`把全部 ${eps.length} 集加入缓存队列?\n(后台逐集下载, 每集约百MB级, 注意磁盘空间)`)) return;
+  for (let i = 0; i < eps.length; i++) {
+    await api('/api/cache/task', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ action: 'start', file: v.lib, videoId: v.id, groupIndex: 0, episodeIndex: i }),
+    }).catch(e => toast(`第 ${i + 1} 集加入失败: ${e.message}`));
+  }
+  toast(`已把 ${eps.length} 集加入缓存队列`);
+  refreshCacheTasks();
+}
+
+function startCachePoller() {
+  if (state.cacheTimer) return;
+  refreshCacheTasks();
+  state.cacheTimer = setInterval(refreshCacheTasks, 2000);
+}
+
+function stopCachePoller() {
+  if (state.cacheTimer) { clearInterval(state.cacheTimer); state.cacheTimer = 0; }
 }
 
 /* ---------------- 启动 ---------------- */
