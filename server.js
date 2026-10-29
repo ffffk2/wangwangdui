@@ -7,7 +7,7 @@
  *   HOST=127.0.0.1 node server.js        # 仅本机访问
  *   NO_OPEN=1 node server.js             # 不自动打开浏览器
  *   CACHE_DIR=D:/video-cache node server.js  # 分片磁盘缓存目录(默认 <项目>/cache, 改目录启动时自动迁移旧缓存)
- *   CACHE_MAX_MB=2048 node server.js     # 磁盘缓存上限(默认 4096MB, 0=不限)
+ *   CACHE_MAX_MB=8192 node server.js     # 磁盘缓存上限 MB(默认不限, 超限按最久未用淘汰)
  *   M3U8_CACHE_HOURS=6 node server.js    # m3u8 播放列表本地缓存时长(小时, 默认 6, 0=不缓存)
  *
  * 资源结构(多目录, 递归扫描):
@@ -44,9 +44,9 @@ const CONFIG_FILE = path.join(DATA_DIR, 'config.json');
 // 磁盘分片缓存目录: 默认 <项目>/cache, CACHE_DIR 可改(相对路径按项目目录解析)
 const CACHE_DIR = path.resolve(__dirname, process.env.CACHE_DIR || 'cache');
 const CACHE_SEG_DIR = path.join(CACHE_DIR, 'seg');
-// 落盘总量上限(字节), CACHE_MAX_MB 可改(0=不限); 超限按最久未用淘汰
+// 落盘总量上限(字节), CACHE_MAX_MB 可改(默认不限); 超限按最久未用淘汰
 const rawMaxMb = parseFloat(process.env.CACHE_MAX_MB);
-const CACHE_MAX_BYTES = (Number.isFinite(rawMaxMb) && rawMaxMb >= 0 ? rawMaxMb : 4096) * 1024 * 1024;
+const CACHE_MAX_BYTES = (Number.isFinite(rawMaxMb) && rawMaxMb >= 0 ? rawMaxMb : 0) * 1024 * 1024;
 // m3u8 播放列表文本缓存 TTL: 重看时 playlist 直接本地出, 启动零回源(带 sign 的源到期自动回源刷新)
 const rawM3u8H = parseFloat(process.env.M3U8_CACHE_HOURS);
 const M3U8_TTL_MS = (Number.isFinite(rawM3u8H) && rawM3u8H >= 0 ? rawM3u8H : 6) * 3600 * 1000;

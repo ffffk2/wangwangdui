@@ -65,7 +65,7 @@ node server.js
 | `HOST=127.0.0.1 node server.js` | 仅本机可访问 |
 | `NO_OPEN=1 node server.js` | 不自动打开浏览器 |
 | `CACHE_DIR=D:/video-cache node server.js` | 分片缓存放别处(相对路径按项目目录解析), 启动时自动把旧缓存整个 mv 到新目录 |
-| `CACHE_MAX_MB=2048 node server.js` | 磁盘缓存上限(默认 4096MB, 0=不限, 超限按最久未用淘汰) |
+| `CACHE_MAX_MB=8192 node server.js` | 磁盘缓存上限 MB(默认不限, 超限按最久未用淘汰; 想限制磁盘占用时再设) |
 | `M3U8_CACHE_HOURS=12 node server.js` | m3u8 播放列表本地缓存时长(默认 6 小时, 0=不缓存) |
 
 ## 多目录片库
@@ -116,7 +116,7 @@ node crawl.js --kw=新片名          # 会生成 resources/新片名/baofeng.js
 |---|---|---|---|
 | keep-alive 连接池 | server.js `HTTPS_AGENT` | 复用 TLS 连接，消除每片握手延迟 | 单片 1.5~1.9s → 0.3~0.7s |
 | 分片预取缓存 | server.js `fetchSegment/prefetchAround` | 每请求 1 片，后台预抓后 3 片入内存 LRU（上限 60 片≈18MB），下次请求零等待 | 串行取 6 片 9.2s → 0.05s |
-| 磁盘持久缓存 | server.js `diskRead/diskWrite` | 播过的分片按 URL 落盘（默认 `cache/`，总量上限 `CACHE_MAX_MB` 默认 4GB，超限最久未用淘汰），内存/预取未命中先查磁盘 | 重看/重启后命中本地秒播，不再回源 |
+| 磁盘持久缓存 | server.js `diskRead/diskWrite` | 播过的分片按 URL 落盘（默认 `cache/`，总量默认不限，可用 `CACHE_MAX_MB` 限 MB、超限最久未用淘汰），内存/预取未命中先查磁盘 | 重看/重启后命中本地秒播，不再回源 |
 | m3u8 本地缓存 | server.js `getM3u8Text` | 播放列表文本也落盘（`cache/m3u8/`，TTL 默认 6 小时 `M3U8_CACHE_HOURS`），重看时 playlist 不回源、分片全命中磁盘 | 缓存过的集启动≈纯本地，无"现场取流"延迟 |
 | 前向缓冲 60s | public/app.js hls 配置 `maxBufferLength:60` | 加大抗抖动余量 | 播放 25s 后缓冲拉满 60s |
 

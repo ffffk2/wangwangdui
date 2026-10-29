@@ -35,7 +35,7 @@ PORT=9000 HOST=127.0.0.1 NO_OPEN=1 node server.js
 ## 架构边界与关键设计
 
 - 播放链路：`播放器 → /proxy?url=<上游> → 采集站CDN`。m3u8 返回前被 `rewriteM3u8` 重写：分片与内嵌 URI 全部换成代理地址，并记录分片顺序（`segOrder`/`segIndex`）供预取定位。
-- 分片缓存（server.js）：内存 LRU `segCache`（上限 60 片）+ 磁盘持久缓存（默认 `<项目>/cache`，`CACHE_DIR` 可改、`CACHE_MAX_MB` 默认 4096 超限最久未用淘汰）+ `fetchSegment` 单飞去重 + `prefetchAround` 预取后 3 片；分片按 URL 的 sha1 落盘 `cache/seg/<hash前2位>/`，写盘异常自动停用不影响播放；改 `CACHE_DIR` 启动时把旧目录 mv 到新目录（上次目录记录在 `data/config.json`）。m3u8 播放列表文本同样落盘 `cache/m3u8/`（TTL 默认 6 小时 `M3U8_CACHE_HOURS`，出口仍走 `rewriteM3u8` 登记 segOrder；代理与手动缓存任务共用 `getM3u8Text`），重看时启动零回源。前端 hls 配置 `maxBufferLength: 60`。调整这些参数需同步更新 README 的性能表格。
+- 分片缓存（server.js）：内存 LRU `segCache`（上限 60 片）+ 磁盘持久缓存（默认 `<项目>/cache`，`CACHE_DIR` 可改、落盘总量默认不限，`CACHE_MAX_MB` 可设上限、超限最久未用淘汰）+ `fetchSegment` 单飞去重 + `prefetchAround` 预取后 3 片；分片按 URL 的 sha1 落盘 `cache/seg/<hash前2位>/`，写盘异常自动停用不影响播放；改 `CACHE_DIR` 启动时把旧目录 mv 到新目录（上次目录记录在 `data/config.json`）。m3u8 播放列表文本同样落盘 `cache/m3u8/`（TTL 默认 6 小时 `M3U8_CACHE_HOURS`，出口仍走 `rewriteM3u8` 登记 segOrder；代理与手动缓存任务共用 `getM3u8Text`），重看时启动零回源。前端 hls 配置 `maxBufferLength: 60`。调整这些参数需同步更新 README 的性能表格。
 - 手动缓存（server.js + app.js）：详情页/播放页点分集角标或"全部缓存"→ `POST /api/cache/task`（start/cancel/remove）进入 FIFO 任务队列；`fetchPlaylistSegments` 解析该集 m3u8（主 playlist 递归进第一个子档）取全部片段 URL，片内 4 并发复用 `fetchSegment` 落盘。同一时刻只下载一集（不挤占播放带宽）；任务记录持久化在 `data/cache-tasks.json`（重启时 running/queued 标记为中断），前端 2s 轮询 `/api/cache/tasks` 刷新角标（⬇/排队/x/y/✓/!）。
 - 片库即时生效：`/api/library` 每次请求都递归重扫 `resources/**/*.json`，新增/修改片库文件无需重启服务。
 - 影片 `file` 标识 = 相对 `resources/` 的 **posix 风格**路径（`path.sep` 统一替换为 `/`），跨平台一致；`/api/video` 用 `file` + `id` 定位。
